@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    flex-shrink: 0;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .advanced {
+    flex-grow: 1;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }  
+  
+  .btn-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .btn-group input[type="submit"] {
+    background-color: #f2f2f2;
+    border: none;
+    color: #222;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-group input[type="submit"]:hover {
+    background-color: #ddd;
+  }
+
+.menu {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.menu a {
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.dynamic-size {
+    width: 300px;
+    height: 40px;
+    font-size: 1.5em;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-btn,
+.lucky-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    border: none;
+    color: #222;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.search-btn {
+    margin-right: 10px;
+}
+
+.lucky-btn:hover {
+    background-color: #ddd;
+}
